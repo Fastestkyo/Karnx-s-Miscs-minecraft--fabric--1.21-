@@ -1,0 +1,17 @@
+{
+  "chisel_use": {
+    "subtitle": "sounds.random-mod.chisel_use",
+    "sounds": [
+      "random-mod:chisel_use"
+    ]
+  },
+
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "random-mod:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

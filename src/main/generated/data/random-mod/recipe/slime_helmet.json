@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:leather_helmet"
+    },
+    "R": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "pattern": [
+    "RBR",
+    "R R",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:slime_helmet"
+  }
+}

@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "random-mod",
+	"version": "${version}",
+	"name": "Random Mod",
+	"description": "RANDOM MOD FOR HIGH SEAS MCMODDING",
+	"authors": [
+		"karnx"
+	],
+	"contact": {
+		"homepage": "https://karnx.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/random-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.karnx.random_mod.RandomMod"
+		],
+		"fabric-datagen": [
+			"net.karnx.random_mod.RandomModDataGenerator"
+		],
+		"client": [
+			"net.karnx.random_mod.RandomModClient"
+
+		]
+
+
+	},
+	"mixins": [
+		"random-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

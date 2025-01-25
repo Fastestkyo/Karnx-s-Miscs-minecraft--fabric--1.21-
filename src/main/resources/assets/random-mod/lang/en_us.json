@@ -1,0 +1,78 @@
+{
+
+  "item.random-mod.frozen_sword": "§b§lFrozen Sword",
+  "item.random-mod.necro_sword": "§l§0Necro-§8Sword",
+  "item.random-mod.confident_sword": "§8§lSword of Confidence",
+  "item.random-mod.soul_sword": "§l§5Soul Sword",
+  "item.random-mod.katana_sword": "§l§7Katana",
+  "item.random-mod.volcanic_sword": "§l§4Volcanic Sword",
+  "item.random-mod.shadow_sword": "§0§lShadow Sword",
+  "item.random-mod.phantom_sword": "§c§lPhantom Sword",
+  "item.random-mod.dagger": "§8§lIron Dagger",
+  "item.random-mod.eclipse_sword": "§6§lEcl§6ipse §8Sword",
+  "item.random-mod.ender_sword": "§lEnd Sword",
+  "item.random-mod.gravity_sword": "§5§lGravity Sword",
+  "item.random-mod.lucky_sword": "§l§eLucky Sword",
+  "item.random-mod.machine_gun": "§7§lMachine Gun",
+  "item.random-mod.magnet_sword": "§7§lMagnet Sword",
+  "item.random-mod.quick_sword": "§a§lQuick Sword",
+  "item.random-mod.tnt_sword": "§l§4Tnt Sword",
+
+
+  "item.random-mod.diamond-bow": "§3§bDiamond§7 Bow",
+
+
+  "item.minecraft.potion.effect.slimey_potion": "Potion Of §l§2Slimes",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Splash Potion Of §l§2Slimes",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Lingering Potion Of §l§2Slimes",
+
+  "item.minecraft.potion.effect.frozen_potion": "Potion Of §l§bIce",
+  "item.minecraft.splash_potion.effect.frozen_potion": "Splash Potion Of §l§bIce",
+  "item.minecraft.lingering_potion.effect.frozen_potion": "Lingering Potion Of §l§bIce",
+
+
+  "painting.random-mod.world.title": "World",
+  "painting.random-mod.world.author": "NanoAttack",
+  "painting.random-mod.shrimp.title": "Shrimp",
+  "painting.random-mod.shrimp.author": "NanoAttack",
+  "painting.random-mod.saw_them.title": "Saw Them",
+  "painting.random-mod.saw_them.author": "NanoAttack",
+
+  "item.random-mod.bar_brawl_music_disc": "The Bar Brawl Music Disk",
+  "item.random-mod.bar_brawl_music_disc.desc": "The Bar Brawl..(CC0) - Bryan Tech",
+
+  "item.random-mod.slime_helmet": "§2Slimed §4Helmet",
+  "item.random-mod.slime_chestplate": "§2Slimed §4Chestplate",
+  "item.random-mod.slime_leggings": "§2Slimed §4Leggings",
+  "item.random-mod.slime_boots": "§2Slimed §4Boots",
+
+  "item.random-mod.karnx_smithing_template": "Karnx Smithing Template",
+
+  "item.random-mod.mantis_spawn_egg": "Mantis Spawn Egg",
+
+  "item.random-mod.diamond_bow": "Diamond Bow",
+  "item.random-mod.tomahawk": "§l§7Sharp §r§8Tomahawk",
+
+
+  "itemgroup.random-mod.karnx_items": "§l§0Karnx's§l§8 Items",
+
+
+  "tooltip.random-mod.chisel.shift_down": "The sigma chisel, made from skibidi",
+  "tooltip.random-mod.chisel.shift_down.2": "This tool this very magical and can do something to specific blocks...",
+  "tooltip.random-mod.chisel": "A chisel.§kskibidi§r §1PRESS SHIFT FOR MORE INFO.§r",
+  "tooltip.random-mod.diamond_bow.tooltip" : "diamond diamond diamond",
+
+  "trim_pattern.random-mod.karnx": "Karnx Armor Pattern",
+  "tooltip.random-mod.bar_brawl_music_disc.tooltip": "nananannananannanan",
+
+  "tooltip.random-mod.tomahawk.tooltip.shift_down": "skbidiskbidiskibidi (idk what to add)",
+  "tooltip.random-mod.tomahawk.tooltip": "TOMAHAWKTUAH!§1PRESS SHIFT FOR MORE INFO.§r",
+
+  "effect.random-mod.slimey": "Slimey",
+  "effect.random-mod.frozen": "Frozen",
+
+  "enchantment.random-mod.lightning_striker": "Lightning Striker",
+
+  "entity.random-mod.mantis": "Mantis",
+  "entity.random-mod.tomahawk": "Tomahawk"
+}

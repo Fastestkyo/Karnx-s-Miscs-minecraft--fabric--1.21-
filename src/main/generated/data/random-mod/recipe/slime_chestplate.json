@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "R": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "pattern": [
+    "R R",
+    "RBR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:slime_chestplate"
+  }
+}

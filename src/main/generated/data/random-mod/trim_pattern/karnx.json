@@ -1,0 +1,8 @@
+{
+  "asset_id": "random-mod:karnx",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.random-mod.karnx"
+  },
+  "template_item": "random-mod:karnx_smithing_template"
+}
