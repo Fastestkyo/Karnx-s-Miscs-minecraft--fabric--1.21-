@@ -2,8 +2,13 @@ package net.karnx.random_mod.item.custom;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.*;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.text.Text;
 import net.minecraft.world.World;
+
+import java.util.List;
+
 public class EclipseSword extends SwordItem {
     public EclipseSword(ToolMaterial toolMaterial, Settings settings) {
         super(toolMaterial, settings);
@@ -26,5 +31,11 @@ public class EclipseSword extends SwordItem {
             }
         }
         return super.postHit(stack, target, attacker);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        tooltip.add(Text.literal("§6sun §7and §8moon?"));
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

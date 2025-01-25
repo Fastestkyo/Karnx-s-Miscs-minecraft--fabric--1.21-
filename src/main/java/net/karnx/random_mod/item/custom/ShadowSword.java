@@ -1,22 +1,24 @@
 package net.karnx.random_mod.item.custom;
 
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.particle.ParticleTypes;
+import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class ShadowSword extends SwordItem {
-    private static final int COOLDOWN_TICKS = 30;
-    private static final float DAMAGE = 6.0F;
+import java.util.List;
 
+public class ShadowSword extends SwordItem {
     public ShadowSword(ToolMaterial toolMaterial, Settings settings) {
         super(toolMaterial, settings);
     }
@@ -27,11 +29,10 @@ public class ShadowSword extends SwordItem {
             Vec3d direction = user.getRotationVector().normalize();
             Vec3d start = user.getPos();
             Vec3d end = start.add(direction.multiply(5.0));
-            Box dashBox = new Box(start, end).expand(1.0); // Widen the path slightly
+            Box dashBox = new Box(start, end).expand(1.0);
             world.getOtherEntities(user, dashBox).forEach(entity -> {
                 if (entity instanceof LivingEntity livingEntity) {
-
-                    livingEntity.damage(livingEntity.getDamageSources().generic(), DAMAGE);
+                    livingEntity.damage(livingEntity.getDamageSources().generic(), 8f);
                 }
             });
             user.requestTeleport(end.x, end.y, end.z);
@@ -43,5 +44,14 @@ public class ShadowSword extends SwordItem {
         }
 
         return TypedActionResult.success(user.getStackInHand(hand));
+    }
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        if (!Screen.hasShiftDown()) {
+            tooltip.add(Text.literal("i see u §4Shift for more info"));
+        } else {
+            tooltip.add(Text.literal("right-click to dash and damage enemies"));
+        }
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

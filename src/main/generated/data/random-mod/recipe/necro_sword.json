@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "F": {
+      "item": "minecraft:black_candle"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "FDF",
+    " D ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:necro_sword"
+  }
+}

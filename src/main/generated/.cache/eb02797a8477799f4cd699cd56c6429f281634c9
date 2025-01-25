@@ -1,4 +1,4 @@
-// 1.21	2025-01-25T18:38:52.0152169	Random Mod/Model Definitions
+// 1.21	2025-01-25T23:04:42.0660609	Random Mod/Model Definitions
 6c5e4591da371479656b88bfc820fc5c2e879d43 assets\random-mod\models\item\slime_boots_emerald_trim.json
 81f693b9dba624ae17fb37365b370b6dbb941666 assets\random-mod\models\item\slime_leggings_quartz_trim.json
 81c0df69f8dae38c5e8f1e734aba8d6e205b37bb assets\random-mod\models\item\slime_boots.json
@@ -23,6 +23,7 @@ d32ad86b7a9c72d67ee8160b43baa5cb6ee95d23 assets\random-mod\models\item\slime_leg
 872c527d1df5dbfd754beeea635eceb4577f982d assets\random-mod\models\item\eclipse_sword.json
 b012abfde4c4c3f02cd63bd6ad81f7bfb22bc41f assets\random-mod\models\item\slime_chestplate_gold_trim.json
 643e97b32c9be44823b6e8f6eb5f3f04d699434c assets\random-mod\models\item\slime_leggings_amethyst_trim.json
+066ef02d2976e14e4b73a9317ec6ced28da0dc3d assets\random-mod\models\item\god_sword.json
 d169e272b803d4c8b4f330d36f161fbcf5013c30 assets\random-mod\models\item\phantom_sword.json
 fa4963789dad5424c10eacead004437748ecf87d assets\random-mod\models\item\slime_chestplate_amethyst_trim.json
 bf8d75077e9e98cdde67d50fa57dd0af93e47434 assets\random-mod\models\item\soul_sword.json

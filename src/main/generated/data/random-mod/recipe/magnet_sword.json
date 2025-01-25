@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "DD",
+    "DD",
+    "S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:magnet_sword"
+  }
+}

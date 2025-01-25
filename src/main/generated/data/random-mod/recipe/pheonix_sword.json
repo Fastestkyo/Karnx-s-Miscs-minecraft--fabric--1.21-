@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:blaze_rod"
+    },
+    "F": {
+      "item": "minecraft:blaze_powder"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "FFF",
+    " D ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:pheonix_sword"
+  }
+}

@@ -7,11 +7,15 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 
+import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraft.entity.EntityType;
+
+import java.util.List;
 
 public class MachineGun extends Item {
 
@@ -53,5 +57,9 @@ public class MachineGun extends Item {
         return ItemStack.EMPTY;
     }
 
-
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        tooltip.add(Text.literal("gun go §l§8brrrrrrr"));
+        super.appendTooltip(stack, context, tooltip, type);
+    }
 }

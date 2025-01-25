@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:magma_cream"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    },
+    "T": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "pattern": [
+    "GTG",
+    "GTG",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:volcanic_sword"
+  }
+}

@@ -5,9 +5,13 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class SoulSword extends SwordItem {
     public SoulSword(ToolMaterial toolMaterial, Settings settings) {
@@ -29,5 +33,11 @@ public class SoulSword extends SwordItem {
         }
 
         return super.postHit(stack, target, attacker);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        tooltip.add(Text.literal("life steal?"));
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

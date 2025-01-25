@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:iron_block"
+    },
+    "F": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:bow"
+    }
+  },
+  "pattern": [
+    "DFF",
+    "DFF",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:machine_gun"
+  }
+}

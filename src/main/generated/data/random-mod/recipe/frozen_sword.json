@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:snowball"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    " D ",
+    "DDD",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:frozen_sword"
+  }
+}

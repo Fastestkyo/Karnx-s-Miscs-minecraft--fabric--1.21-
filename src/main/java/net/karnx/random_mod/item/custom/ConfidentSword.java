@@ -4,7 +4,11 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.Vec3d;
+
+import java.util.List;
 
 public class ConfidentSword extends SwordItem {
     public ConfidentSword(ToolMaterial toolMaterial, Settings settings) {
@@ -28,5 +32,11 @@ public class ConfidentSword extends SwordItem {
         Vec3d dvel = dir.multiply(dspeed);
         user.setVelocity(user.getVelocity().add(dvel));
         user.velocityModified = true;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        tooltip.add(Text.literal("§dThis sword will boost ur confidence§o(public speaking not included)"));
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

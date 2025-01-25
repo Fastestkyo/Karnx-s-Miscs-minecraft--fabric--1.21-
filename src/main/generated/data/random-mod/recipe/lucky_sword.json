@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "E": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "G": {
+      "item": "minecraft:egg"
+    },
+    "J": {
+      "item": "minecraft:gunpowder"
+    },
+    "L": {
+      "item": "minecraft:sugar"
+    },
+    "R": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "EDG",
+    "LFJ",
+    "RSR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:lucky_sword"
+  }
+}

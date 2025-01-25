@@ -36,6 +36,7 @@ public class ModItemGroups {
                         entries.add(ModItems.DAGGER);
                         entries.add(ModItems.TNT_SWORD);
                         entries.add(ModItems.MACHINE_GUN);
+                        entries.add(ModItems.GOD_SWORD);
 
 
 

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "S",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:dagger"
+  }
+}

@@ -62,6 +62,8 @@ public class ModItems {
             new TntSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
     public static final Item MACHINE_GUN = registerItem("machine_gun",
             new MachineGun(new Item.Settings().maxDamage(500)));
+    public static final Item GOD_SWORD = registerItem("god_sword",
+            new GodSword(ToolMaterials.WOOD, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.WOOD, 0, -2.4f))));
 
 
 

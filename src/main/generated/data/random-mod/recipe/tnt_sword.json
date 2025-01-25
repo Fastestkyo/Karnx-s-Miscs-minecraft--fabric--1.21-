@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "pattern": [
+    "GTG",
+    "GTG",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:tnt_sword"
+  }
+}

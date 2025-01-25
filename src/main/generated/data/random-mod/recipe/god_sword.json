@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "T",
+    "T",
+    "T"
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:god_sword"
+  }
+}

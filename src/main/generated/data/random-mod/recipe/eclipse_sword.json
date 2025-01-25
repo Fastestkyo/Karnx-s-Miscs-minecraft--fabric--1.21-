@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:blaze_powder"
+    },
+    "F": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    " F ",
+    "DFD",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:eclipse_sword"
+  }
+}

@@ -6,10 +6,14 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class PhantomSword extends SwordItem {
     public PhantomSword(ToolMaterial toolMaterial, Settings settings) {
@@ -30,5 +34,10 @@ public class PhantomSword extends SwordItem {
         return TypedActionResult.success(user.getStackInHand(hand));
     }
 
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        tooltip.add(Text.literal("§l*screeeech*"));
+        super.appendTooltip(stack, context, tooltip, type);
     }
+}
 

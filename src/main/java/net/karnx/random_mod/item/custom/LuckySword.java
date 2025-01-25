@@ -9,12 +9,14 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
+import java.util.List;
 import java.util.Random;
 
 public class LuckySword extends SwordItem {
@@ -74,11 +76,6 @@ public class LuckySword extends SwordItem {
         }
     }
 
-
-
-
-
-
     private void speedcase(PlayerEntity player) {
         player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 1));
         player.sendMessage(Text.literal("You feel lighter on your feet!"), true);
@@ -89,5 +86,11 @@ public class LuckySword extends SwordItem {
         if (!world.isClient) {
             world.createExplosion(null, target.getX(), target.getY(), target.getZ(), 3.0f, World.ExplosionSourceType.TNT);
         }
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        tooltip.add(Text.literal("§eL§dU§bC§aK"));
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

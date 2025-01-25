@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:black_candle"
+    },
+    "R": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "D",
+    "R",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "random-mod:shadow_sword"
+  }
+}
